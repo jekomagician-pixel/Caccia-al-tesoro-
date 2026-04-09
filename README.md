@@ -26,7 +26,7 @@
 function controlla() {
   let pass = document.getElementById("password").value;
 
-  if(pass === "roma") {
+  if(pass === "sesso") {
     document.getElementById("contenuto").style.display = "block";
     document.getElementById("errore").innerText = "";
   } else {
